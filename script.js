@@ -45,7 +45,7 @@ const hideLoadingIndicator = () => {
 const generateResponse = (chatElement) => {
     showLoadingIndicator(); // Show loading indicator before making the API call
 
-    const API_URL = "https://puthon-chabot.onrender.com/ask";
+    const API_URL = "https://puthon-chabot.onrender.com/webtose";
     const messageElement = chatElement.querySelector("p");
 
     const requestOptions = {
